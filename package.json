@@ -1,0 +1,21 @@
+{
+  "name": "twitch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "api": "npm start --prefix api",
+    "client": "npm start --prefix client",
+    "server": "npm start --prefix rtmpServer",
+    "start": "concurrently \"npm run api\" \"npm run client\" \"npm run server\"",
+    "instClient": "cd client && npm install",
+    "instApi": "cd api && npm install",
+    "instRtmp": "cd rtmpServer && npm install",
+    "heroku-postbuild": "npm install instClient && npm install instApi && npm install instRtmp"
+  },
+  "author": "Sirius_al",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.3.0"
+  }
+}

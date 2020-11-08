@@ -1,0 +1,32 @@
+{
+  "streams": [
+    {
+      "title": "this is a stream",
+      "description": "my awesome stream",
+      "id": 1
+    },
+    {
+      "title": "the 2nd stream",
+      "description": "here is the Other Stream",
+      "id": 2
+    },
+    {
+      "title": "programmatic navigation",
+      "description": "this is awesome",
+      "UserId": "110257018850542007747",
+      "id": 4
+    },
+    {
+      "title": "another Stream",
+      "description": "this is another stream",
+      "UserId": "110257018850542007747",
+      "id": 5
+    },
+    {
+      "title": "stream 4",
+      "description": "nothing to say",
+      "UserId": "110257018850542007747",
+      "id": 6
+    }
+  ]
+}
